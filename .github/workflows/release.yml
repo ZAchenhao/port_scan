@@ -103,8 +103,6 @@ jobs:
           flutter-version: '3.44.9'
           channel: 'stable'
 
-      - run: flutter create --platforms=macos .
-
       - run: flutter pub get
 
       # macOS
